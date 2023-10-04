@@ -1,4 +1,4 @@
-package org.mogul.singleton;
+package org.mogul.creational.singleton;
 
 public class SingletonStaticBlock {
     private static SingletonStaticBlock instance;
