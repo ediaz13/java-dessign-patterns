@@ -1,5 +1,7 @@
 package org.mogul.creational.singleton;
 
+import org.mogul.creational.builder.Apartment;
+
 public class SingletonLazy {
     private static SingletonLazy singletonLazyInstance;
 
