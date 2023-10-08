@@ -5,7 +5,7 @@ public class Facebook implements App{
     private PhoneOS os;
 
     public Facebook(PhoneOS os) {
-        os = this.os;
+        this.os = os;
     }
     @Override
     public void runApp() {
