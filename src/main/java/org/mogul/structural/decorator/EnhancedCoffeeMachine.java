@@ -22,8 +22,8 @@ public class EnhancedCoffeeMachine implements CoffeeMachine{
 
     //Extended Behaviour.
     public void makeMilkCoffee() {
-        System.out.println("Enhadec Coffee Machine: Making Milk Coffee");
+        System.out.println("Enhanced Coffee Machine: Making Milk Coffee");
         normalCoffeeMachine.makeLargeCoffee();
-        System.out.println("Enhadec Coffee Machine: Adding Milk");
+        System.out.println("Enhanced Coffee Machine: Adding Milk");
     }
 }
