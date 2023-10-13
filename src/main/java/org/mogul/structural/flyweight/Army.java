@@ -2,6 +2,7 @@ package org.mogul.structural.flyweight;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class Army {
     private List<Fighter> army = new ArrayList<>();
@@ -21,6 +22,8 @@ public class Army {
                 default:
                     System.out.println("M ");
             }
+
+            fighter.move(ThreadLocalRandom.current().nextInt(0, 1000), 3);
         }
     }
 }

@@ -13,7 +13,7 @@ public class Client {
             switch (random.nextInt(3)) {
                 case 0: currentRank = FighterRank.PRIVATE;
                     break;
-                case 1: currentRank = FighterRank.PRIVATE;
+                case 1: currentRank = FighterRank.SARGENT;
                     break;
                 default: currentRank = FighterRank.MAJOR;
                     break;
