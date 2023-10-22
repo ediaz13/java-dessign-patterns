@@ -6,7 +6,7 @@ public class Client {
         UpperCaseStrategy upperCaseStrategy = new UpperCaseStrategy();
         RandomStrategy randomStrategy = new RandomStrategy();
 
-        String input = "La onda es probar esto Dude!";
+        String input = "The thing here is test the startegy design pattern!";
 
         Executor executor = new Executor(randomStrategy);
         executor.printString(input);
