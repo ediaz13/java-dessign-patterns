@@ -23,7 +23,7 @@ public class Client {
             yearlyCost += project.accept(yearlyCostReportVisitor);
         }
 
-        System.out.println("Monthly cost is: " + monthlyCost);
+        System.out.println("Monthly cost is this: " + monthlyCost);
         System.out.println("Yearly cost is: " + yearlyCost);
 
     }
