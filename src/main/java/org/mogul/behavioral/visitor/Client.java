@@ -1,6 +1,5 @@
 package org.mogul.behavioral.visitor;
 
-import java.sql.Time;
 import java.util.List;
 
 public class Client {
