@@ -16,7 +16,6 @@ public class Client {
         careTaker.saveState(originator.createMemento());
         System.out.println("Current state is: " + originator.state);
 
-
         System.out.println("------------------------------------");
 
         originator.restoreMemento(careTaker.restoreState(0));
